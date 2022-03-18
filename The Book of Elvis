@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+ <html>
+<style>
+main{
+  display:flex;
+  margin:0px;
+  padding-left:0px;
+}
+article{
+ column-count:2;
+}
+@media (min-width: 60em) {
+  /* two column layout only when enough room (relative to default text size) */
+  nav { display: block; 
+    margin-left:0px;
+    height:100%;
+    indent:-2em;
+  }
+  .navbar {
+    display:block;
+  height: 100%;
+  }
+}
+/* menu items use flex layout so that visibility:collapse will work */
+
+#navbar{background-color: white;
+    position: absolute;
+    top: 10;
+    padding: 0;
+    margin: 10;
+    width: 20%;
+  height: 100%;
+    border: none;
+    z-index: auto;
+    border-bottom: 4px solid;
+ overflow-y: scroll;
+    scroll-snap-type: y mandatory;}
+
+ #navbar ul {
+  height: 100%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+   
+}
+
+#navbar li {
+  color: #4d4e53;
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+
+#navbar a {
+  display: block;
+  padding: 10px 30px;
+  color: #4d4e53;
+  text-decoration: none;
+  cursor: pointer;
+   
+    
+}
+header{
+  text-align:center;
+  
+}
+ h1 {
+  text-align:center;
+    font-family:aclonica;
+    background-color: f1e9e4;
+}
+article{
+  
+  flex-wrap: wrap; 
+  flow: column;
+  position: relative;
+  margin-left: 250px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+
+
+</style>
+
+<h1>The Book of Elvis</h1>
+<main class="main-section">
+  
+   <nav class="navbar" id="navbar">
+     
+        <ul>
+           <li><a class="nav-link" href="#Chapter_1">Chapter 1</a></li>
+              <li><a  class="nav-link"href="#Chapter 2">Chapter 2</a></li>
+              <li><a class="nav-link" href="#Chapter 3">Chapter 3</a></li>
+              <li><a class="nav-link" href="#Chapter 4">Chapter 4</a></li>
+              <li><a class="nav-link" href="#Chapter 5">Chapter 5</a></li>
+              <li><a class="nav-link" href="#Chapter 6">Chapter 6</a></li>
+              <li><a class="nav-link" href="#Chapter 7">Chapter 7</a></li>
+              <li><a class="nav-link" href="#Chapter 8">Chapter 8</a></li>
+              <li><a class="nav-link" href="#Chapter 9">Chapter 9</a></li>
+              <li><a class="nav-link" href="#Chapter 10">Chapter 10</a></li></ul>
+	</nav>
+       
+        
+         <article class="Chapter" id="Chapter_1">
+           <header>Chapter 1: Birth</header>
+              <p>It has only been five and a half moths into the pregnancy and Amy who was in the kitchen cooking is suddenly have a contraction and going into labor. She drop the frying pan and screamed in pain that the neighbors heard her scream and came running.</p>
+ 			 <p>Jude, one of the neighbors running towards her house yells her name, <i>Amy</i>, as they all began to converge into her home. <i>Everything ok? what is going on?</i> he asked. <i>He is coming</i> she yells. <i>Who is coming?</i> Jude yells and the finds her laying on the floor. <i>Oh!!1 His coming</i> he yells. <i>I thought you are only a little over five Months pregnant? That can't be it right?</i> They all stood there confuse and wasting time arguing whether  or not it is time. But she was in pain and yells at them to stop standing around an take her to the hospital</P>
+			<P>The all jump into helping mode as soon as they all understood the baby was coming. Jude toss his keys to Liz as he yells, <i>Get my carriage from my farm</i> Liz She took off run to get the carriage, while Jude and the others carry her out of the house. <i>Where is she?</i> the asked, look towards her direction. Suddenly she appears with the horses and the carriage as she rids down the street. <i>Her she is,</i> they yell. Amy was place in the carriage and she was rush to the nearest doctor.</p> 
+			</article>             
+         
+ </main>
+    
+    
+</html>
