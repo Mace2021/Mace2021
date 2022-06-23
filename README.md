@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Mace2021
 - 👀 I’m interested in learning coding
-- 🌱 I’m currently learning HTML
+- 🌱 I’m currently learning JS
 - 💞️ I’m looking to collaborate on bulding an app
 - 📫 How to reach me elvistanyi2020@gmail.com
 
